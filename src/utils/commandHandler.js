@@ -78,8 +78,6 @@ function handleCommand(conn, mek, m, context) {
     command,
     args,
     q,
-    apikey,
-    baseurl,
     isGroup,
     sender,
     senderNumber,
@@ -95,8 +93,6 @@ function handleCommand(conn, mek, m, context) {
     isBotAdmins,
     isAdmins,
     handleFile,
-    randomMimeType,
-    mnu,
     reply,
   } = context;
 
@@ -153,8 +149,6 @@ function handleCommand(conn, mek, m, context) {
       body,
       command,
       q,
-      apikey,
-      baseurl,
       isGroup,
       sender,
       senderNumber,
@@ -170,7 +164,6 @@ function handleCommand(conn, mek, m, context) {
       isBotAdmins,
       isAdmins,
       handleFile,
-      randomMimeType,
       mnu,
       reply,
     });
